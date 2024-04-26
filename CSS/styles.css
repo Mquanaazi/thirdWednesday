@@ -1,5 +1,5 @@
 
-/* universal selector */
+
 body{
 background-color: blue;
 color:white;
@@ -11,7 +11,7 @@ color:white;
         justify-content:space-between;
         flex-wrap: wrap;
         flex-direction:row;}
-        /* child selector */
+
         nav{
             border-bottom: dotted ;
         }
@@ -21,7 +21,7 @@ color:white;
     padding: 2rex;
   
   }
-    /* child selector */
+ 
     ul li {
         list-style: none;
        padding: 2rex    ;
