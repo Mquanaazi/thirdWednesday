@@ -98,8 +98,8 @@ color:white;
 
     position: relative;
     background-color: grey;
-    transition:1.5ms;
-    transition-delay:0.5s;
+    transition:1.5s;
+    transition-delay:0s;
  }
       
     
