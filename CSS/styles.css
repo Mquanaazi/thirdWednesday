@@ -1,0 +1,105 @@
+
+/* universal selector */
+body{
+background-color: blue;
+color:white;
+
+}
+    
+    ul{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        flex-direction:row;}
+        /* child selector */
+        nav{
+            border-bottom: dotted ;
+        }
+  nav a{
+    text-decoration: none;
+    color: white;
+    padding: 2rex;
+  
+  }
+    /* child selector */
+    ul li {
+        list-style: none;
+       padding: 2rex    ;
+      
+    }
+
+    .table {
+        text-align: center;
+       
+    } 
+    h1{
+       text-decoration: underline solid 2px;
+    }
+    #table{
+    margin-left: auto;
+    margin-right: auto;
+    
+    ;
+    }
+    /*descenent selector/similar to child...in a way*/
+   
+    img{
+        width: 300px;
+        height:300px;
+        border-radius: 10%;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .card{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        transform-style: preserve-3d;
+        transition: trasnform linear 1s;
+
+ text-align: center;
+    }
+    .container 
+    {
+     display: flex;
+     justify-content:space-evenly;
+   
+    }
+ article{
+    text-align: center;
+
+
+ }
+ article h1{
+    text-transform: uppercase;
+ }
+ th, td {
+    border-bottom: 2px solid white;
+  width: 70px;
+  height: 70px;
+  }
+  #hover:hover h3
+  {
+     cursor: pointer;
+     display: block;
+  }
+ h3{
+     background-color: purple;
+     padding: 2rex;
+     display: none;
+ }
+ .card:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+ }
+ #nav a:hover{
+
+    position: relative;
+    background-color: grey;
+    transition:1ms;
+    transition-delay:2s;
+ }
+      
+    
